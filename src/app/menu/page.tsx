@@ -295,7 +295,10 @@ export default function MenuPage() {
                         Sancerre "Le Paradis", Domaine Vacheron
                       </span>
                       <span className="text-gray-500 italic md:ml-2 text-sm block md:inline">
-                        Loire Valley, France <span className="text-xs text-gold/70">(Biodynamic)</span>
+                        Loire Valley, France{" "}
+                        <span className="text-xs text-gold/70">
+                          (Biodynamic)
+                        </span>
                       </span>
                     </div>
                     <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
@@ -424,9 +427,140 @@ export default function MenuPage() {
                     </span>
                   </div>
                   <p className="text-gray-500 font-light text-sm">
-                    Гастрономический грушевый сидр от бывшего сомелье 3-звездного
-                    ресторана. Тонкая перляж, вкус печеной груши и минералов.
-                    Альтернатива десертному вину, идеально к «Павловой».
+                    Гастрономический грушевый сидр от бывшего сомелье
+                    3-звездного ресторана. Тонкая перляж, вкус печеной груши и
+                    минералов. Альтернатива десертному вину, идеально к
+                    «Павловой».
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Soft Drinks */}
+            <div>
+              <h3 className="text-lg font-serif text-white mb-6 border-b border-gray-800 pb-2">
+                Soft Drinks & Fermentation / Безалкогольные напитки
+              </h3>
+              <div className="space-y-8">
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Еловая Комбуча
+                      </span>
+                      <span className="ml-2 text-[10px] uppercase tracking-widest border border-gray-600 text-gray-400 px-2 py-0.5 rounded-full">
+                        Probiotic
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      390 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Чайный гриб двойной ферментации, настоянный на молодых
+                    побегах ели и зеленом яблоке. Кисло-сладкий профиль с лесным
+                    ароматом.
+                  </p>
+                </div>
+
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Спритц «Облепиха & Розмарин»
+                      </span>
+                      <span className="ml-2 text-[10px] uppercase tracking-widest border border-gray-600 text-gray-400 px-2 py-0.5 rounded-full">
+                        Local
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      450 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Домашний кордиал из карельской облепихи, гидролат розмарина,
+                    безалкогольное игристое, содовая.
+                  </p>
+                </div>
+
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Крыжовник & Масло Укропа
+                      </span>
+                      <span className="ml-2 text-[10px] uppercase tracking-widest border border-gray-600 text-gray-400 px-2 py-0.5 rounded-full">
+                        Fresh
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      420 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Осветленный сок зеленого крыжовника, масло укропа, огуречная
+                    вода. Освежающий вкус с яркой «зеленой» нотой.
+                  </p>
+                </div>
+
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Шраб из Ревеня
+                      </span>
+                      <span className="ml-2 text-[10px] uppercase tracking-widest border border-gray-600 text-gray-400 px-2 py-0.5 rounded-full">
+                        Fermented
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      350 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Уксус из ферментированного ревеня, сироп из шиповника,
+                    минеральная вода. Баланс кислотности и терпкости.
+                  </p>
+                </div>
+
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Березовый Лимонад
+                      </span>
+                      <span className="ml-2 text-[10px] uppercase tracking-widest border border-gray-600 text-gray-400 px-2 py-0.5 rounded-full">
+                        Local
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      350 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Натуральный березовый сок, цветы бузины, лимонный тимян.
+                    Мягкий, слегка сладковатый вкус.
+                  </p>
+                </div>
+
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Грибной «Капучино» из Чаги
+                      </span>
+                      <span className="ml-2 text-[10px] uppercase tracking-widest border border-gray-600 text-gray-400 px-2 py-0.5 rounded-full">
+                        Hot
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      400 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Взвар из березового гриба чаги, растительное молоко
+                    (фундук), кленовый сироп. Северная альтернатива кофе.
+                    Подается горячим.
                   </p>
                 </div>
               </div>
