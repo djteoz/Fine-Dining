@@ -56,11 +56,26 @@ export default function VisitPage() {
           </div>
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-gray-500 text-sm mb-2">Часы работы</p>
-          <p className="text-white text-lg">Вт — Вс: 18:00 — 00:00</p>
-          <p className="text-gray-500 text-sm mt-4 mb-2">Адрес</p>
-          <p className="text-white text-lg">ул. Большая Никитская, 12</p>
+        <div className="mt-20">
+          <div className="h-64 w-full bg-gray-800 mb-8 relative grayscale hover:grayscale-0 transition-all duration-500">
+            {/* Map Placeholder */}
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop')] bg-cover bg-center opacity-50" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-white font-serif text-xl tracking-widest bg-black/50 px-6 py-2 border border-white/30">
+                КАРТА
+              </span>
+            </div>
+          </div>
+          <div className="text-center">
+            <p className="text-gray-500 text-sm mb-2 uppercase tracking-widest">
+              Часы работы
+            </p>
+            <p className="text-white text-lg mb-6">Вт — Вс: 18:00 — 00:00</p>
+            <p className="text-gray-500 text-sm mb-2 uppercase tracking-widest">
+              Адрес
+            </p>
+            <p className="text-white text-lg">ул. Большая Дмитровка, 12</p>
+          </div>
         </div>
       </div>
     </div>

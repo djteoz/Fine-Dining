@@ -49,7 +49,58 @@ export default function MenuPage() {
           <h2 className="text-2xl font-serif text-gold mb-8 uppercase tracking-widest">
             A La Carte
           </h2>
-          <p className="text-gray-500">Полное меню доступно в ресторане.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left max-w-4xl mx-auto">
+            <div>
+              <h3 className="text-lg font-serif text-white mb-6 border-b border-gray-800 pb-2">
+                Закуски
+              </h3>
+              <div className="space-y-6">
+                <div>
+                  <div className="flex justify-between text-white mb-1">
+                    <span>Тартар из говядины</span>
+                    <span className="text-gold">1 200 ₽</span>
+                  </div>
+                  <p className="text-sm text-gray-500">
+                    Желток конфи, каперсы, ржаной чипс
+                  </p>
+                </div>
+                <div>
+                  <div className="flex justify-between text-white mb-1">
+                    <span>Карпаччо из осьминога</span>
+                    <span className="text-gold">1 800 ₽</span>
+                  </div>
+                  <p className="text-sm text-gray-500">
+                    Лимонный гель, фенхель, оливковое масло
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-lg font-serif text-white mb-6 border-b border-gray-800 pb-2">
+                Горячее
+              </h3>
+              <div className="space-y-6">
+                <div>
+                  <div className="flex justify-between text-white mb-1">
+                    <span>Утиная грудка</span>
+                    <span className="text-gold">2 100 ₽</span>
+                  </div>
+                  <p className="text-sm text-gray-500">
+                    Пюре из пастернака, вишневый соус
+                  </p>
+                </div>
+                <div>
+                  <div className="flex justify-between text-white mb-1">
+                    <span>Палтус</span>
+                    <span className="text-gold">2 400 ₽</span>
+                  </div>
+                  <p className="text-sm text-gray-500">
+                    Спаржа, соус шампань, красная икра
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div>

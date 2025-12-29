@@ -41,6 +41,29 @@ export default function ChefPage() {
           </div>
         </div>
       </div>
+
+      {/* Signature Dish Section */}
+      <div className="max-w-6xl mx-auto mt-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="order-2 md:order-1">
+            <span className="text-gold text-sm uppercase tracking-widest mb-4 block">
+              Фирменное блюдо
+            </span>
+            <h2 className="text-3xl font-serif text-white mb-6">
+              Северный Олень с Можжевельником
+            </h2>
+            <p className="text-gray-400 mb-6 leading-relaxed">
+              Это блюдо — квинтэссенция философии Александра. Нежнейшее мясо
+              оленя, приготовленное при низкой температуре, подается с соусом из
+              лесных ягод и копченой грушей. Вкус дикой природы в изысканном
+              исполнении.
+            </p>
+          </div>
+          <div className="order-1 md:order-2 relative h-[400px] w-full bg-gray-800">
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069&auto=format&fit=crop')] bg-cover bg-center" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

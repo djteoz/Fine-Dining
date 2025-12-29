@@ -46,20 +46,29 @@ export default function PrivateDiningPage() {
           </div>
         </div>
 
-        <div className="bg-charcoal p-12 text-center max-w-2xl mx-auto">
+        <div className="bg-charcoal p-12 text-center max-w-2xl mx-auto border border-gray-800">
           <h3 className="text-2xl font-serif text-white mb-4">
             Организация мероприятия
           </h3>
           <p className="text-gray-400 mb-8">
             Для бронирования частных залов, пожалуйста, свяжитесь с нашим
-            банкетным менеджером.
+            банкетным менеджером. Мы поможем составить индивидуальное меню и
+            подобрать винное сопровождение.
           </p>
-          <a
-            href="mailto:events@lumiere.com"
-            className="text-gold border-b border-gold pb-1 hover:text-white hover:border-white transition-colors"
-          >
-            events@lumiere.com
-          </a>
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+            <a
+              href="mailto:events@lumiere.ru"
+              className="text-gold border-b border-gold pb-1 hover:text-white hover:border-white transition-colors uppercase tracking-widest text-sm"
+            >
+              events@lumiere.ru
+            </a>
+            <a
+              href="tel:+74951234567"
+              className="text-gold border-b border-gold pb-1 hover:text-white hover:border-white transition-colors uppercase tracking-widest text-sm"
+            >
+              +7 (495) 123-45-67
+            </a>
+          </div>
         </div>
       </div>
     </div>
