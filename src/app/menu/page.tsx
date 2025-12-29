@@ -246,10 +246,6 @@ export default function MenuPage() {
             </div>
           </div>
         </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div>
           <h2 className="text-2xl font-serif text-gold mb-8 uppercase tracking-widest">
