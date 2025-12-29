@@ -110,9 +110,13 @@ export default function MenuPage() {
           <p className="text-gray-400 mb-6">
             Более 300 позиций из Старого и Нового света.
           </p>
-          <button className="px-8 py-3 border border-gray-600 text-gray-300 hover:border-white hover:text-white transition-colors uppercase text-xs tracking-widest">
+          <a
+            href="/menu.pdf"
+            download
+            className="inline-block px-8 py-3 border border-gray-600 text-gray-300 hover:border-white hover:text-white transition-colors uppercase text-xs tracking-widest"
+          >
             Скачать PDF
-          </button>
+          </a>
         </div>
       </div>
     </div>
