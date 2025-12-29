@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Private Dining | LUMIÈRE",
@@ -15,7 +16,14 @@ export default function PrivateDiningPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-20">
           <div>
-            <div className="h-64 bg-gray-800 mb-6 bg-[url('https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center" />
+            <div className="relative h-64 w-full bg-gray-800 mb-6 overflow-hidden">
+              <Image
+                src="/fireplace.jpg"
+                alt="Каминный зал"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-700"
+              />
+            </div>
             <h2 className="text-3xl font-serif text-white mb-4">
               Каминный зал
             </h2>
@@ -30,7 +38,14 @@ export default function PrivateDiningPage() {
             </ul>
           </div>
           <div>
-            <div className="h-64 bg-gray-800 mb-6 bg-[url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center" />
+            <div className="relative h-64 w-full bg-gray-800 mb-6 overflow-hidden">
+              <Image
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop"
+                alt="Винная библиотека"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-700"
+              />
+            </div>
             <h2 className="text-3xl font-serif text-white mb-4">
               Винная библиотека
             </h2>
