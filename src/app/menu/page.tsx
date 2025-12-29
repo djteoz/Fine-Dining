@@ -248,9 +248,191 @@ export default function MenuPage() {
         </div>
 
         <div>
-          <h2 className="text-2xl font-serif text-gold mb-8 uppercase tracking-widest">
+          <h2 className="text-2xl font-serif text-gold mb-12 uppercase tracking-widest">
             Винная карта
           </h2>
+
+          <div className="max-w-4xl mx-auto text-left space-y-12 mb-16">
+            {/* Sparkling */}
+            <div>
+              <h3 className="text-lg font-serif text-white mb-6 border-b border-gray-800 pb-2">
+                Sparkling / Игристое
+              </h3>
+              <div className="space-y-8">
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Pierre Gimonnet & Fils, Cuis 1er Cru Blanc de Blancs
+                      </span>
+                      <span className="text-gray-500 italic md:ml-2 text-sm block md:inline">
+                        Champagne, France
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      1 800 / 10 500 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Элегантное шампанское от независимого дома (Grower
+                    Champagne). 100% Шардоне. Минеральное, хрустящее, с нотами
+                    белых цветов и бриоши. Идеально к гребешку и икре.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* White */}
+            <div>
+              <h3 className="text-lg font-serif text-white mb-6 border-b border-gray-800 pb-2">
+                White / Белое
+              </h3>
+              <div className="space-y-8">
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Sancerre "Le Paradis", Domaine Vacheron
+                      </span>
+                      <span className="text-gray-500 italic md:ml-2 text-sm block md:inline">
+                        Loire Valley, France <span className="text-xs text-gold/70">(Biodynamic)</span>
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      1 200 / 7 200 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Биодинамический Совиньон Блан. Сложный, «нервный», с
+                    ароматами кремния, грейпфрута и морской соли. Лучшая пара к
+                    гравлаксу и козьему сыру.
+                  </p>
+                </div>
+
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Chablis 1er Cru "Montmains", Jean-Marc Brocard
+                      </span>
+                      <span className="text-gray-500 italic md:ml-2 text-sm block md:inline">
+                        Burgundy, France
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      1 450 / 8 700 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Классика в современном прочтении. Стальные ноты, лимонная
+                    цедра, высокая кислотность. Великолепно сбалансирует
+                    жирность соуса Бер-блан в блюде с треской.
+                  </p>
+                </div>
+
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Riesling "Kalkstein", Wittmann
+                      </span>
+                      <span className="text-gray-500 italic md:ml-2 text-sm block md:inline">
+                        Rheinhessen, Germany
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      950 / 5 700 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Сухой рислинг с известняковых почв. Строгий, пронзительный,
+                    с тонами зеленого яблока и лайма. Отлично работает с
+                    корнеплодами и капустой.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Red */}
+            <div>
+              <h3 className="text-lg font-serif text-white mb-6 border-b border-gray-800 pb-2">
+                Red / Красное
+              </h3>
+              <div className="space-y-8">
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Bourgogne Pinot Noir, Domaine Faiveley
+                      </span>
+                      <span className="text-gray-500 italic md:ml-2 text-sm block md:inline">
+                        Burgundy, France
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      1 100 / 6 600 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Эталонный Пино Нуар: легкий, но сложный. Аромат подлеска,
+                    вишни и мокрой листвы. Идеальная пара к утиной грудке и
+                    грибным десертам.
+                  </p>
+                </div>
+
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Crozes-Hermitage, Alain Graillot
+                      </span>
+                      <span className="text-gray-500 italic md:ml-2 text-sm block md:inline">
+                        Rhône Valley, France
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      1 350 / 8 100 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Сира с северной Роны. Мощные ноты черного перца, лакрицы и
+                    темных ягод. Этот пряный профиль создан для оленины с
+                    можжевельником и говяжьих щечек.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Cider */}
+            <div>
+              <h3 className="text-lg font-serif text-white mb-6 border-b border-gray-800 pb-2">
+                Cider / Сидр (Special)
+              </h3>
+              <div className="space-y-8">
+                <div className="group">
+                  <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-2">
+                    <div className="pr-4">
+                      <span className="text-lg text-white font-serif font-medium group-hover:text-gold transition-colors">
+                        Eric Bordelet, Poiré Granit
+                      </span>
+                      <span className="text-gray-500 italic md:ml-2 text-sm block md:inline">
+                        Normandy, France
+                      </span>
+                    </div>
+                    <span className="text-gold font-light whitespace-nowrap mt-1 md:mt-0">
+                      750 / 4 500 ₽
+                    </span>
+                  </div>
+                  <p className="text-gray-500 font-light text-sm">
+                    Гастрономический грушевый сидр от бывшего сомелье 3-звездного
+                    ресторана. Тонкая перляж, вкус печеной груши и минералов.
+                    Альтернатива десертному вину, идеально к «Павловой».
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <p className="text-gray-400 mb-6">
             Более 300 позиций из Старого и Нового света.
           </p>
